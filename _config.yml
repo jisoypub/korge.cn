@@ -10,7 +10,7 @@ exclude:
   - ".vscode"
   - "@old"
 baseurl: ""
-url: "https://docs.korge.org"
+url: "https://www.korge.cn"
 edit_root_url: https://github.com/jisoypub/korge.cn/blob/main/
 blog_url: ""
 project_url: https://github.com/jisoypub/korge.cn/
