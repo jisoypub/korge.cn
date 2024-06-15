@@ -11,11 +11,11 @@ exclude:
   - "@old"
 baseurl: ""
 url: "https://docs.korge.org"
-edit_root_url: https://github.com/korlibs/docs.korge.org/blob/main/
+edit_root_url: https://github.com/jisoypub/korge.cn/blob/main/
 blog_url: ""
-project_url: https://github.com/korlibs
+project_url: https://github.com/jisoypub/korge.cn/
 google_search_id: 001447907640164080602:ej0h0w0ufr0
-github_username:  korlibs
+github_username:  jisoypub
 # DISQUS is super intrusive lately
 #disqus_id: "korlibs-documentation"
 markdown: kramdown
