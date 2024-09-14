@@ -70,6 +70,10 @@
                             </div>
                             <div class="tab-pane" style="padding:8px;" id="windows" role="tabpanel"
                                 aria-labelledby="windows-tab">
+                                <div style="margin-bottom: 16px;">
+                                    Press <kbd>win+r</kbd>, then type <code>cmd</code> and press return, then copy and paste the command from below in the opened window and press return again. This will open the installer.
+                                </div>
+    
                                 <figure class="codeblock">
                                     <figcaption class="codeblock-toolbar" style="padding:4px 8px;">
                                         <span class="codeblock-lang">Windows&nbsp;CMD&nbsp;Install&nbsp;Script</span>
@@ -80,8 +84,8 @@
                                         </button>
                                     </figcaption>
                                     <pre id="cmd-script" class="language-bash"
-                                        style="padding:8px;color:white;"><code
-                                      class="language-bash">curl -s -L https://forge.korge.org/install-korge-forge.cmd -o "%APPDATA%\install-korge-forge.cmd" && "%APPDATA%\install-korge-forge.cmd"</code></pre>
+                                        style="padding:8px;"><code
+                                      class="language-bash" style="color:white;">cd "%USERPROFILE%/Downloads" & curl -sLO https://forge.korge.org/install-korge-forge.cmd && install-korge-forge.cmd</code></pre>
                                 </figure>
                             </div>
                             <div class="tab-pane" style="padding:8px;" id="unix" role="tabpanel"
@@ -96,8 +100,8 @@
                                         </button>
                                     </figcaption>
                                     <pre id="bash-script" class="language-bash"
-                                        style="padding:8px;color:white;"><code
-                                      class="language-bash">sh -c "$(curl -fsSL https://raw.githubusercontent.com/korlibs/korge-forge-installer/main/install-korge-forge.sh)"</code></pre>
+                                        style="padding:8px;"><code
+                                      class="language-bash" style="color:white;">cd "$HOME/Downloads"; curl -fsSLO https://forge.korge.org/install-korge-forge.sh && chmod +x install-korge-forge.sh && ./install-korge-forge.sh</code></pre>
                                 </figure>
                             </div>
                         </div>
